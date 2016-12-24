@@ -1,0 +1,28 @@
+{
+  "name": "postcss-showcase",
+  "version": "1.0.0",
+  "description": "A simple showcase of postcss + gulp",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "showcase"
+  ],
+  "author": "orenciorodolfo",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "postcss": "^5.2.7",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.0.0",
+    "postcss-nested": "^1.0.0",
+    "postcss-style-guide": "^0.13.0"
+  },
+  "dependencies": {
+    "postcss-import": "^9.0.0"
+  }
+}
