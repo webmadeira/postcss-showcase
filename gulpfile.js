@@ -35,7 +35,7 @@ const pcImport = require('postcss-import')
 const styleGuide = require('postcss-style-guide')
 
 styleGuide({
-    project: 'Project name',
+    project: 'PostCSS showcase',
     dest: 'styleguide/index.html',
     showCode: true,
   }),
