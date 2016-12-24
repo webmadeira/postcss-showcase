@@ -10,3 +10,33 @@ gulp.task('default', () => {
     .pipe(rename('style.css'))
     .pipe(gulp.dest('./dist'))
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PostCSS plugins */
+/*
+const pcCssNext = require('postcss-cssnext')
+const pcImport = require('postcss-import')
+const styleGuide = require('postcss-style-guide')
+
+styleGuide({
+    project: 'Project name',
+    dest: 'styleguide/index.html',
+    showCode: true,
+  }),
+*/
